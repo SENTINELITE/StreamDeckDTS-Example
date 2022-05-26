@@ -13,10 +13,10 @@ Feedback Number: FB9865328 • Execute Shortcut with the Shortcuts CLI via the S
  
  Setup Instructions:
  • Download this project, & build it.
- • Mac StreamDeck Software: https://edge.elgato.com/egc/macos/sd/Stream_Deck_5.2.1.15025.pkg  Alt Link: https://www.elgato.com/en/downloads
- • iOS/iPadOS App Store Link: https://apps.apple.com/us/app/elgato-stream-deck-mobile/id1440014184
+ • Mac StreamDeck Software, [Direct Download](https://edge.elgato.com/egc/macos/sd/Stream_Deck_5.2.1.15025.pkg) [Alt Link](https://www.elgato.com/en/downloads)
+ • iOS/iPadOS App Store [Link](https://apps.apple.com/us/app/elgato-stream-deck-mobile/id1440014184)
  • After building this package, under the derived data folder, run the following command to generate the StreamDeck Plugin's folder structure
- • Download the example shortcut (it's hardcoded, but you may change it) located here: https://www.icloud.com/shortcuts/7b67ea37a8c64e4bad7824925cdc41bd
+ • Download the example [shortcut](https://www.icloud.com/shortcuts/7b67ea37a8c64e4bad7824925cdc41bd)
  
  `"~/Library/Developer/Xcode/DerivedData/StreamDeckDTS-Example-dystobzosnjkupdbeinrveevbdtg/Build/Products/Debug/shortcut-plugin" export --copy-executable --generate-manifest com.sentinelite.shortcutsDTS.sdPlugin`
  
